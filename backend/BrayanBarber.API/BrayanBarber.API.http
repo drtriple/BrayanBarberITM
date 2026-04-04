@@ -1,0 +1,6 @@
+@BrayanBarber.API_HostAddress = http://localhost:5160
+
+GET {{BrayanBarber.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

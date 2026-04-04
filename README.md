@@ -1,5 +1,20 @@
 ﻿# ✂️ Brayan Barber
 
+**Objetivo General:** Desarrollar e implementar una aplicación web para la gestión de citas, clientes y empleados de la barbería “Brayan Barber”, que permita centralizar la información y organizar la operación del negocio, logrando reducir los errores en el agendamiento en al menos un 80% durante el primer mes de uso.
+
+**Objetivos Específicos:**
+
+1. Diseñar e implementar un módulo de gestión de citas que permita crear, editar, cancelar y visualizar reservas, garantizando la disponibilidad de horarios y evitando conflictos de agenda.
+
+2. Desarrollar un módulo de registro de clientes que permita almacenar y consultar información básica, logrando que al menos el 90% de los clientes frecuentes queden registrados al primer mes de uso.
+
+3. Implementar un módulo de gestión de empleados que permita registrar, activar y desactivar barberos, garantizando la correcta asignación de citas durante el periodo de prueba del sistema.
+
+4. Establecer un sistema de roles (administrador y barbero) que controle el acceso a las funcionalidades del sistema, garantizando que cada rol interactúe únicamente con las opciones correspondientes.
+
+## Diagrama de Clases
+![Diagrama_clases_UML_BrayanBarber](doc\Diagrama_clases_UML_BrayanBarber.svg)
+
 ## Requisitos
 1. Visual Studio 2022
 2. .NET Framework 8.x
@@ -67,4 +82,22 @@ src
  ├── routes
  │    └── AppRoutes.jsx
  └── App.jsx
+ ```
+
+ ### Construcción del Backend
+
+```
+dotnet new sln -n BrayanBarber
+dotnet new webapi -n BrayanBarber.API -controllers
+dotnet new classlib -n BrayanBarber.Domain
+dotnet new classlib -n BrayanBarber.DataAccess
+
+# API referencia a Domain
+dotnet add BrayanBarber.API/BrayanBarber.API.csproj reference BrayanBarber.Domain/BrayanBarber.Domain.csproj
+
+# API referencia a DataAccess (para registrar servicios en Program.cs)
+dotnet add BrayanBarber.API/BrayanBarber.API.csproj reference BrayanBarber.DataAccess/BrayanBarber.DataAccess.csproj
+
+# DataAccess referencia a Domain
+dotnet add BrayanBarber.DataAccess/BrayanBarber.DataAccess.csproj reference BrayanBarber.Domain/BrayanBarber.Domain.csproj
  ```
