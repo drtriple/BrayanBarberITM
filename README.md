@@ -13,7 +13,7 @@
 4. Establecer un sistema de roles (administrador y barbero) que controle el acceso a las funcionalidades del sistema, garantizando que cada rol interactúe únicamente con las opciones correspondientes.
 
 ## Diagrama de Clases
-![Diagrama_clases_UML_BrayanBarber](doc\Diagrama_clases_UML_BrayanBarber.svg)
+![Diagrama_clases_UML_BrayanBarber](doc/Diagrama_clases_UML_BrayanBarber.svg)
 
 ## Requisitos
 1. Visual Studio 2022
