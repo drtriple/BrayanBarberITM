@@ -1,5 +1,7 @@
 ﻿# ✂️ Brayan Barber
 
+Lea detenidamente la documentación para la ejecución del proyecto. 
+
 **Objetivo General:** Desarrollar e implementar una aplicación web para la gestión de citas, clientes y empleados de la barbería “Brayan Barber”, que permita centralizar la información y organizar la operación del negocio, logrando reducir los errores en el agendamiento en al menos un 80% durante el primer mes de uso.
 
 **Objetivos Específicos:**
@@ -37,6 +39,8 @@
 
 ## Instalación Librerías Frontend
 
+Este proceso solo se ejecutará tiene una versión de Visual Studio inferior o superior a la 2022.
+
 ```
 Paso 1. Abrir PowerShell como Admin
 Paso 2. Ubicarte en la carpeta del frontend
@@ -47,6 +51,8 @@ npm install react-router-dom axios lucide-react
 npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init -p
 ```
+
+En el caso que tenga Visual Studio 2022 solo ejecute el archivo .sln
 
 ## Estructura Frontend
 ```

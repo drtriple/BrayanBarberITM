@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|d:\\datos\\desktop\\itm\\septimo semestre\\dise\u00F1o de sistemas\\brayanbarber\\frontend\\frontend\\src\\pages\\public\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|solutionrelative:frontend\\src\\pages\\public\\home.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|d:\\datos\\desktop\\itm\\septimo semestre\\dise\u00F1o de sistemas\\brayanbarber\\frontend\\frontend\\src\\pages\\public\\myappointment.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|solutionrelative:frontend\\src\\pages\\public\\myappointment.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|d:\\datos\\desktop\\itm\\septimo semestre\\dise\u00F1o de sistemas\\brayanbarber\\frontend\\frontend\\src\\pages\\public\\bookappointment.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|solutionrelative:frontend\\src\\pages\\public\\bookappointment.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|d:\\datos\\desktop\\itm\\septimo semestre\\dise\u00F1o de sistemas\\brayanbarber\\frontend\\frontend\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|solutionrelative:frontend\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|d:\\datos\\desktop\\itm\\septimo semestre\\dise\u00F1o de sistemas\\brayanbarber\\frontend\\frontend\\src\\components\\appointmentcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|solutionrelative:frontend\\src\\components\\appointmentcard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|d:\\datos\\desktop\\itm\\septimo semestre\\dise\u00F1o de sistemas\\brayanbarber\\frontend\\frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{462EE049-9FE1-B47D-1B3E-22BACA5D9185}|frontend\\frontend.esproj|solutionrelative:frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.jsx",
-              "DocumentMoniker": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\App.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\App.jsx",
-              "ToolTip": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\App.jsx",
-              "RelativeToolTip": "frontend\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-03-11T03:13:58.4Z",
-              "IsPinned": true
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -56,51 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Home.jsx",
-              "DocumentMoniker": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\pages\\public\\Home.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\pages\\public\\Home.jsx",
-              "ToolTip": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\pages\\public\\Home.jsx",
-              "RelativeToolTip": "frontend\\src\\pages\\public\\Home.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-03-15T20:13:24.011Z",
+              "Title": "api.js",
+              "DocumentMoniker": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\services\\api.js",
+              "RelativeDocumentMoniker": "frontend\\src\\services\\api.js",
+              "ToolTip": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\services\\api.js",
+              "RelativeToolTip": "frontend\\src\\services\\api.js",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-08T22:59:38.819Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MyAppointment.jsx",
-              "DocumentMoniker": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\pages\\public\\MyAppointment.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\pages\\public\\MyAppointment.jsx",
-              "ToolTip": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\pages\\public\\MyAppointment.jsx",
-              "RelativeToolTip": "frontend\\src\\pages\\public\\MyAppointment.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-03-15T20:13:19.201Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookAppointment.jsx",
-              "DocumentMoniker": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\pages\\public\\BookAppointment.jsx",
-              "RelativeDocumentMoniker": "frontend\\src\\pages\\public\\BookAppointment.jsx",
-              "ToolTip": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\pages\\public\\BookAppointment.jsx",
-              "RelativeToolTip": "frontend\\src\\pages\\public\\BookAppointment.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-03-15T20:13:03.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "AppointmentCard.jsx",
               "DocumentMoniker": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\components\\AppointmentCard.jsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\AppointmentCard.jsx",
               "ToolTip": "D:\\Datos\\Desktop\\ITM\\SEPTIMO SEMESTRE\\Dise\u00F1o de Sistemas\\brayanbarber\\frontend\\frontend\\src\\components\\AppointmentCard.jsx",
               "RelativeToolTip": "frontend\\src\\components\\AppointmentCard.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-03-15T20:12:44.652Z"
+              "WhenOpened": "2026-04-08T22:59:20.732Z"
             }
           ]
         }
