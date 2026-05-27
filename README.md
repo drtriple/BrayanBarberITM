@@ -92,11 +92,47 @@ src
 
  ### Construcción del Backend
 
+ ## Estructura Backend
+
+ ```
+ ├───BrayanBarber.API
+│   │   appsettings.json
+│   │   Program.cs
+│   ├───Controllers
+│   ├───DTOs
+│   │   ├───Request
+│   │   └───Response
+│   ├───Mappings
+│   │       MappingProfile.cs
+│   │
+│   ├───Middlewares
+│
+├───BrayanBarber.DataAccess
+│   │   BrayanBarber.DataAccess.csproj
+│   ├───Context
+│   │       BarberDbContext.cs
+│   ├───Migrations
+│   ├───Repositories
+│   └───Seeders
+└───BrayanBarber.Domain
+    ├───Entities
+    ├───Enums
+    ├───Helper
+    ├───Interfaces
+    │   ├───Repositories
+    │   └───Services
+    └───Services
+ ```
+
 ```
 dotnet new sln -n BrayanBarber
 dotnet new webapi -n BrayanBarber.API -controllers
 dotnet new classlib -n BrayanBarber.Domain
 dotnet new classlib -n BrayanBarber.DataAccess
+
+dotnet sln add BrayanBarber.API/BrayanBarber.API.csproj
+dotnet sln add BrayanBarber.Domain/BrayanBarber.Domain.csproj
+dotnet sln add BrayanBarber.DataAccess/BrayanBarber.DataAccess.csproj
 
 # API referencia a Domain
 dotnet add BrayanBarber.API/BrayanBarber.API.csproj reference BrayanBarber.Domain/BrayanBarber.Domain.csproj
@@ -107,3 +143,22 @@ dotnet add BrayanBarber.API/BrayanBarber.API.csproj reference BrayanBarber.DataA
 # DataAccess referencia a Domain
 dotnet add BrayanBarber.DataAccess/BrayanBarber.DataAccess.csproj reference BrayanBarber.Domain/BrayanBarber.Domain.csproj
  ```
+
+ #### Paqueteria
+
+```
+cd BrayanBarber.DataAccess
+dotnet add package Microsoft.EntityFrameworkCore -v 8.0.*
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer -v 8.0.*
+dotnet add package Microsoft.EntityFrameworkCore.Tools -v 8.0.*
+dotnet add package BCrypt.Net-Next
+
+cd BrayanBarber.API
+dotnet add package Microsoft.EntityFrameworkCore.Design -v 8.0.*
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+dotnet add package Swashbuckle.AspNetCore
+
+cd BrayanBarber.Domain
+dotnet add package Microsoft.Extensions.Logging.Abstractions
+dotnet add package BCrypt.Net-Next
+```
