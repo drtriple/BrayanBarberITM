@@ -1,7 +1,53 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net9.0\BrayanBarber.DataAccess.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net9.0\BrayanBarber.DataAccess.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\BrayanBarber.DataAccess.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net9.0\BrayanBarber.DataAccess.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net9.0\BrayanBarber.DataAccess.sourcelink.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\BrayanBarber.DataAccess.csproj.nuget.g.props" />
+    <None Include="obj\BrayanBarber.DataAccess.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net9.0\BrayanBa.6F35D021.Up2Date" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.DataAccess.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.DataAccess.assets.cache" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.DataAccess.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.DataAccess.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.DataAccess.dll" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.DataAccess.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.DataAccess.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.DataAccess.pdb" />
+    <None Include="obj\Debug\net9.0\refint\BrayanBarber.DataAccess.dll" />
+    <None Include="obj\Debug\net9.0\ref\BrayanBarber.DataAccess.dll" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BrayanBarber.Domain\BrayanBarber.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.*">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Seeders\" />
   </ItemGroup>
 
   <PropertyGroup>

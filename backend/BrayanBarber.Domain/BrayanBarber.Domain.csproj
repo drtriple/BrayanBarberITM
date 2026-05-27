@@ -6,4 +6,47 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net9.0\BrayanBarber.Domain.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net9.0\BrayanBarber.Domain.GlobalUsings.g.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net9.0\BrayanBarber.Domain.deps.json" />
+    <Content Include="obj\BrayanBarber.Domain.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\net9.0\BrayanBarber.Domain.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net9.0\BrayanBarber.Domain.sourcelink.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net9.0\BrayanBarber.Domain.dll" />
+    <None Include="bin\Debug\net9.0\BrayanBarber.Domain.pdb" />
+    <None Include="obj\BrayanBarber.Domain.csproj.nuget.g.props" />
+    <None Include="obj\BrayanBarber.Domain.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.Domain.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.Domain.assets.cache" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.Domain.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.Domain.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.Domain.dll" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.Domain.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net9.0\BrayanBarber.Domain.pdb" />
+    <None Include="obj\Debug\net9.0\refint\BrayanBarber.Domain.dll" />
+    <None Include="obj\Debug\net9.0\ref\BrayanBarber.Domain.dll" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Helper\" />
+    <Folder Include="Interfaces\Repositories\" />
+    <Folder Include="Interfaces\Services\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
